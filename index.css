@@ -1,0 +1,40 @@
+.menu{
+    background-color:aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 10;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 50px;
+}
+body{
+    text-align: center;
+    margin: 0px;
+}
+.nav{
+    text-decoration: none;
+    color: blue;
+}
+.nav:hover{
+    font-size: 50px;
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 100px;
+}
+#title{
+    font-family: 'Chivo Mono', monospace;
+}
+#Home{
+    background-image: linear-gradient(to right bottom,aqua,orange,blue)
+}
